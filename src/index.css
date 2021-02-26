@@ -6,6 +6,17 @@
   padding: 0;
 }
 
+a:link{
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }

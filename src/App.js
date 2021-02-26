@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react'
+import {BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
+import Footer from './components/Footer'
+import About from './components/About'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 
 
 
-const name = 'Task Tracker App'
+const name = 'Task Tracker'
 
 
 function App() {
@@ -89,6 +92,7 @@ function App() {
   }
 
   return (
+    <Router>
     <div className="container">
       <Header title={ name } onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask} />
       {showAddTask && <AddTask onAdd={ addTask }/>}
@@ -98,8 +102,10 @@ function App() {
           onDelete={ deleteTask } 
           onToggle={ toggleReminder } />) 
           : ('No Tasks To Show ')}
-          
+          <Route path='/about' component={About} />
+          <Footer />
     </div>
+    </Router>
   );
 }
 
