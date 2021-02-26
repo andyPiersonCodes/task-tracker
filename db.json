@@ -10,12 +10,12 @@
       "id": 4,
       "text": "Cook ziti",
       "day": "Mar 15th at 1:30am",
-      "reminder": true
+      "reminder": false
     },
     {
       "text": "Get vaccine",
       "day": "April 23rd 2025 at 10:45am",
-      "reminder": true,
+      "reminder": false,
       "id": 6
     },
     {
