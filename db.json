@@ -4,7 +4,7 @@
       "id": 3,
       "text": "Look for where I parked my car",
       "day": "Mar 5th at 10:00pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
@@ -21,7 +21,7 @@
     {
       "text": "Make Plans",
       "day": "Apr 23rd 2025 11:00am",
-      "reminder": true,
+      "reminder": false,
       "id": 7
     }
   ]
