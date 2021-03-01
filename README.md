@@ -8,7 +8,9 @@ I created this by following Brad Traversy's Task Tracker tutorial, found here, h
 
 ### Future Updates Planned:
 
-* Add MongoDb backend
+* Add Node.js backend
+
+* Add MongoDb database
 
 * Add user authentication
 
